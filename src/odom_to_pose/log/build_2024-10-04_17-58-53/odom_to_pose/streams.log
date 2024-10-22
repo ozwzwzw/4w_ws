@@ -1,0 +1,72 @@
+[0.009s] Invoking command in '/home/ozawa/nedo/roomba_ws/src/odom_to_pose/build/odom_to_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ozawa/nedo/roomba_ws/src/odom_to_pose -DCMAKE_INSTALL_PREFIX=/home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose
+[0.083s] -- The C compiler identification is GNU 11.4.0
+[0.143s] -- The CXX compiler identification is GNU 11.4.0
+[0.153s] -- Detecting C compiler ABI info
+[0.209s] -- Detecting C compiler ABI info - done
+[0.214s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.214s] -- Detecting C compile features
+[0.215s] -- Detecting C compile features - done
+[0.218s] -- Detecting CXX compiler ABI info
+[0.281s] -- Detecting CXX compiler ABI info - done
+[0.286s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.286s] -- Detecting CXX compile features
+[0.286s] -- Detecting CXX compile features - done
+[0.293s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.403s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.488s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.537s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.544s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.553s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.568s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.585s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.635s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.638s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.720s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.743s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.774s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.784s] -- Looking for pthread.h
+[0.842s] -- Looking for pthread.h - found
+[0.842s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.900s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.901s] -- Found Threads: TRUE  
+[0.955s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.986s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[0.997s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.011s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.012s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.012s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.109s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[1.169s] -- Configuring done
+[1.183s] -- Generating done
+[1.184s] -- Build files have been written to: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/build/odom_to_pose
+[1.193s] Invoked command in '/home/ozawa/nedo/roomba_ws/src/odom_to_pose/build/odom_to_pose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ozawa/nedo/roomba_ws/src/odom_to_pose -DCMAKE_INSTALL_PREFIX=/home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose
+[1.195s] Invoking command in '/home/ozawa/nedo/roomba_ws/src/odom_to_pose/build/odom_to_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ozawa/nedo/roomba_ws/src/odom_to_pose/build/odom_to_pose -- -j16 -l16
+[1.235s] [ 50%] [32mBuilding CXX object CMakeFiles/turtleodom_node.dir/src/turtleodom_node.cpp.o[0m
+[1.235s] [ 50%] [32mBuilding CXX object CMakeFiles/odompose_node.dir/src/odompose_node.cpp.o[0m
+[7.810s] [ 75%] [32m[1mLinking CXX executable odompose_node[0m
+[7.888s] [100%] [32m[1mLinking CXX executable turtleodom_node[0m
+[8.195s] [100%] Built target odompose_node
+[8.242s] [100%] Built target turtleodom_node
+[8.252s] Invoked command in '/home/ozawa/nedo/roomba_ws/src/odom_to_pose/build/odom_to_pose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ozawa/nedo/roomba_ws/src/odom_to_pose/build/odom_to_pose -- -j16 -l16
+[8.286s] Invoking command in '/home/ozawa/nedo/roomba_ws/src/odom_to_pose/build/odom_to_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ozawa/nedo/roomba_ws/src/odom_to_pose/build/odom_to_pose
+[8.292s] -- Install configuration: ""
+[8.292s] -- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/lib/odom_to_pose/odompose_node
+[8.295s] -- Set runtime path of "/home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/lib/odom_to_pose/odompose_node" to ""
+[8.295s] -- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/lib/odom_to_pose/turtleodom_node
+[8.299s] -- Set runtime path of "/home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/lib/odom_to_pose/turtleodom_node" to ""
+[8.299s] -- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/ament_index/resource_index/package_run_dependencies/odom_to_pose
+[8.299s] -- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/ament_index/resource_index/parent_prefix_path/odom_to_pose
+[8.299s] -- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/odom_to_pose/environment/ament_prefix_path.sh
+[8.299s] -- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/odom_to_pose/environment/ament_prefix_path.dsv
+[8.299s] -- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/odom_to_pose/environment/path.sh
+[8.300s] -- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/odom_to_pose/environment/path.dsv
+[8.300s] -- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/odom_to_pose/local_setup.bash
+[8.300s] -- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/odom_to_pose/local_setup.sh
+[8.300s] -- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/odom_to_pose/local_setup.zsh
+[8.300s] -- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/odom_to_pose/local_setup.dsv
+[8.300s] -- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/odom_to_pose/package.dsv
+[8.300s] -- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/ament_index/resource_index/packages/odom_to_pose
+[8.301s] -- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/odom_to_pose/cmake/odom_to_poseConfig.cmake
+[8.301s] -- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/odom_to_pose/cmake/odom_to_poseConfig-version.cmake
+[8.301s] -- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/odom_to_pose/package.xml
+[8.303s] Invoked command in '/home/ozawa/nedo/roomba_ws/src/odom_to_pose/build/odom_to_pose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ozawa/nedo/roomba_ws/src/odom_to_pose/build/odom_to_pose

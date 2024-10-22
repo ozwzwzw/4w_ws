@@ -1,0 +1,177 @@
+[0.000000] (-) TimerEvent: {}
+[0.000646] (vel_control) JobQueued: {'identifier': 'vel_control', 'dependencies': OrderedDict()}
+[0.000679] (vel_control) JobStarted: {'identifier': 'vel_control'}
+[0.006510] (vel_control) JobProgress: {'identifier': 'vel_control', 'progress': 'cmake'}
+[0.006763] (vel_control) Command: {'cmd': ['/usr/bin/cmake', '/home/ozawa/nedo/4w_ws/src/vel_control', '-DCMAKE_INSTALL_PREFIX=/home/ozawa/nedo/4w_ws/install/vel_control'], 'cwd': '/home/ozawa/nedo/4w_ws/build/vel_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ozawa'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ozawa'), ('OLDPWD', '/home/ozawa/nedo/4w_ws/src/vel_control/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '1765'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ozawa/nedo/4w_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ozawa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ozawa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ozw-HP:@/tmp/.ICE-unix/1578,unix/ozw-HP:/tmp/.ICE-unix/1578'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/64008eeb_db4d_467d_b014_165125ce13ba'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CK30V2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.396'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ozawa/nedo/4w_ws/build/vel_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.051346] (vel_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.093677] (vel_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.099045] (vel_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099785] (-) TimerEvent: {}
+[0.154336] (vel_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.159201] (vel_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.159381] (vel_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.159644] (vel_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.161773] (vel_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199915] (-) TimerEvent: {}
+[0.223748] (vel_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.228871] (vel_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.229072] (vel_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.229401] (vel_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.231276] (vel_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300007] (-) TimerEvent: {}
+[0.336657] (vel_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.400120] (-) TimerEvent: {}
+[0.400347] (vel_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.428823] (vel_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.432109] (vel_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.437662] (vel_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.445862] (vel_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.456449] (vel_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.485082] (vel_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.486801] (vel_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500189] (-) TimerEvent: {}
+[0.555387] (vel_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.575588] (vel_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.600285] (-) TimerEvent: {}
+[0.606828] (vel_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.612335] (vel_control) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.670037] (vel_control) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.670372] (vel_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.700398] (-) TimerEvent: {}
+[0.727408] (vel_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.728244] (vel_control) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.762598] (vel_control) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.771633] (vel_control) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.783785] (vel_control) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.800472] (-) TimerEvent: {}
+[0.811240] (vel_control) StdoutLine: {'line': b'-- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.818640] (vel_control) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.827921] (vel_control) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.828871] (vel_control) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.829015] (vel_control) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.892187] (vel_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.900558] (-) TimerEvent: {}
+[0.947111] (vel_control) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.947924] (vel_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.948094] (vel_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ozawa/nedo/4w_ws/src/vel_control/include>\n'}
+[0.948168] (vel_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.948734] (vel_control) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.948826] (vel_control) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.949248] (vel_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.949971] (vel_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.950067] (vel_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.950264] (vel_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.951154] (vel_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.961481] (vel_control) StdoutLine: {'line': b'-- Generating done\n'}
+[0.962914] (vel_control) StdoutLine: {'line': b'-- Build files have been written to: /home/ozawa/nedo/4w_ws/build/vel_control\n'}
+[0.971341] (vel_control) CommandEnded: {'returncode': 0}
+[0.971906] (vel_control) JobProgress: {'identifier': 'vel_control', 'progress': 'build'}
+[0.972921] (vel_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ozawa/nedo/4w_ws/build/vel_control', '--', '-j16', '-l16'], 'cwd': '/home/ozawa/nedo/4w_ws/build/vel_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ozawa'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ozawa'), ('OLDPWD', '/home/ozawa/nedo/4w_ws/src/vel_control/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '1765'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ozawa/nedo/4w_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ozawa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ozawa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ozw-HP:@/tmp/.ICE-unix/1578,unix/ozw-HP:/tmp/.ICE-unix/1578'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/64008eeb_db4d_467d_b014_165125ce13ba'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CK30V2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.396'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ozawa/nedo/4w_ws/build/vel_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.000642] (-) TimerEvent: {}
+[1.013611] (vel_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/velcontrol_node.dir/src/velcontrol_node.cpp.o\x1b[0m\n'}
+[1.100751] (-) TimerEvent: {}
+[1.201024] (-) TimerEvent: {}
+[1.301326] (-) TimerEvent: {}
+[1.401633] (-) TimerEvent: {}
+[1.501988] (-) TimerEvent: {}
+[1.602272] (-) TimerEvent: {}
+[1.702558] (-) TimerEvent: {}
+[1.802882] (-) TimerEvent: {}
+[1.903175] (-) TimerEvent: {}
+[2.003463] (-) TimerEvent: {}
+[2.103885] (-) TimerEvent: {}
+[2.204184] (-) TimerEvent: {}
+[2.304466] (-) TimerEvent: {}
+[2.404760] (-) TimerEvent: {}
+[2.505033] (-) TimerEvent: {}
+[2.605309] (-) TimerEvent: {}
+[2.705611] (-) TimerEvent: {}
+[2.805898] (-) TimerEvent: {}
+[2.906207] (-) TimerEvent: {}
+[3.006495] (-) TimerEvent: {}
+[3.106782] (-) TimerEvent: {}
+[3.207081] (-) TimerEvent: {}
+[3.307373] (-) TimerEvent: {}
+[3.407650] (-) TimerEvent: {}
+[3.507929] (-) TimerEvent: {}
+[3.608219] (-) TimerEvent: {}
+[3.708505] (-) TimerEvent: {}
+[3.808790] (-) TimerEvent: {}
+[3.909090] (-) TimerEvent: {}
+[4.009375] (-) TimerEvent: {}
+[4.109667] (-) TimerEvent: {}
+[4.209991] (-) TimerEvent: {}
+[4.310280] (-) TimerEvent: {}
+[4.410567] (-) TimerEvent: {}
+[4.510852] (-) TimerEvent: {}
+[4.611139] (-) TimerEvent: {}
+[4.711440] (-) TimerEvent: {}
+[4.811726] (-) TimerEvent: {}
+[4.912361] (-) TimerEvent: {}
+[5.012648] (-) TimerEvent: {}
+[5.112957] (-) TimerEvent: {}
+[5.213243] (-) TimerEvent: {}
+[5.313559] (-) TimerEvent: {}
+[5.413851] (-) TimerEvent: {}
+[5.514176] (-) TimerEvent: {}
+[5.614450] (-) TimerEvent: {}
+[5.715286] (-) TimerEvent: {}
+[5.815606] (-) TimerEvent: {}
+[5.915895] (-) TimerEvent: {}
+[6.016177] (-) TimerEvent: {}
+[6.116458] (-) TimerEvent: {}
+[6.216740] (-) TimerEvent: {}
+[6.317019] (-) TimerEvent: {}
+[6.417320] (-) TimerEvent: {}
+[6.517629] (-) TimerEvent: {}
+[6.617899] (-) TimerEvent: {}
+[6.718184] (-) TimerEvent: {}
+[6.818455] (-) TimerEvent: {}
+[6.918727] (-) TimerEvent: {}
+[7.019000] (-) TimerEvent: {}
+[7.119272] (-) TimerEvent: {}
+[7.219544] (-) TimerEvent: {}
+[7.319814] (-) TimerEvent: {}
+[7.420096] (-) TimerEvent: {}
+[7.520401] (-) TimerEvent: {}
+[7.620674] (-) TimerEvent: {}
+[7.720956] (-) TimerEvent: {}
+[7.821262] (-) TimerEvent: {}
+[7.921534] (-) TimerEvent: {}
+[8.021808] (-) TimerEvent: {}
+[8.122120] (-) TimerEvent: {}
+[8.222411] (-) TimerEvent: {}
+[8.322720] (-) TimerEvent: {}
+[8.423043] (-) TimerEvent: {}
+[8.523692] (-) TimerEvent: {}
+[8.579709] (vel_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable velcontrol_node\x1b[0m\n'}
+[8.623810] (-) TimerEvent: {}
+[8.724132] (-) TimerEvent: {}
+[8.824415] (-) TimerEvent: {}
+[8.924718] (-) TimerEvent: {}
+[8.997810] (vel_control) StdoutLine: {'line': b'[100%] Built target velcontrol_node\n'}
+[9.006814] (vel_control) CommandEnded: {'returncode': 0}
+[9.024783] (-) TimerEvent: {}
+[9.026222] (vel_control) JobProgress: {'identifier': 'vel_control', 'progress': 'install'}
+[9.033277] (vel_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ozawa/nedo/4w_ws/build/vel_control'], 'cwd': '/home/ozawa/nedo/4w_ws/build/vel_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ozawa'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ozawa'), ('OLDPWD', '/home/ozawa/nedo/4w_ws/src/vel_control/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '1765'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ozawa/nedo/4w_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ozawa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ozawa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ozw-HP:@/tmp/.ICE-unix/1578,unix/ozw-HP:/tmp/.ICE-unix/1578'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/64008eeb_db4d_467d_b014_165125ce13ba'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CK30V2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.396'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ozawa/nedo/4w_ws/build/vel_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.039400] (vel_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.039551] (vel_control) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/lib/vel_control/velcontrol_node\n'}
+[9.044245] (vel_control) StdoutLine: {'line': b'-- Set runtime path of "/home/ozawa/nedo/4w_ws/install/vel_control/lib/vel_control/velcontrol_node" to ""\n'}
+[9.044387] (vel_control) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/ament_index/resource_index/package_run_dependencies/vel_control\n'}
+[9.044552] (vel_control) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/ament_index/resource_index/parent_prefix_path/vel_control\n'}
+[9.044733] (vel_control) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/environment/ament_prefix_path.sh\n'}
+[9.044853] (vel_control) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/environment/ament_prefix_path.dsv\n'}
+[9.044981] (vel_control) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/environment/path.sh\n'}
+[9.045098] (vel_control) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/environment/path.dsv\n'}
+[9.045215] (vel_control) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/local_setup.bash\n'}
+[9.045351] (vel_control) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/local_setup.sh\n'}
+[9.045487] (vel_control) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/local_setup.zsh\n'}
+[9.045617] (vel_control) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/local_setup.dsv\n'}
+[9.045750] (vel_control) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/package.dsv\n'}
+[9.045916] (vel_control) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/ament_index/resource_index/packages/vel_control\n'}
+[9.046080] (vel_control) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/cmake/vel_controlConfig.cmake\n'}
+[9.046183] (vel_control) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/cmake/vel_controlConfig-version.cmake\n'}
+[9.046299] (vel_control) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/package.xml\n'}
+[9.047919] (vel_control) CommandEnded: {'returncode': 0}
+[9.082017] (vel_control) JobEnded: {'identifier': 'vel_control', 'rc': 0}
+[9.082501] (-) EventReactorShutdown: {}

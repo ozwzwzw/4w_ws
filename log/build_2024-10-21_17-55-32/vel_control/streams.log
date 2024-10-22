@@ -1,0 +1,79 @@
+[0.008s] Invoking command in '/home/ozawa/nedo/4w_ws/build/vel_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ozawa/nedo/4w_ws/src/vel_control -DCMAKE_INSTALL_PREFIX=/home/ozawa/nedo/4w_ws/install/vel_control
+[0.051s] -- The C compiler identification is GNU 11.4.0
+[0.093s] -- The CXX compiler identification is GNU 11.4.0
+[0.098s] -- Detecting C compiler ABI info
+[0.154s] -- Detecting C compiler ABI info - done
+[0.159s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.159s] -- Detecting C compile features
+[0.159s] -- Detecting C compile features - done
+[0.161s] -- Detecting CXX compiler ABI info
+[0.223s] -- Detecting CXX compiler ABI info - done
+[0.228s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.228s] -- Detecting CXX compile features
+[0.229s] -- Detecting CXX compile features - done
+[0.231s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.336s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.400s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.428s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.431s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.437s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.445s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.456s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.484s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.486s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.555s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.575s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.606s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.612s] -- Looking for pthread.h
+[0.669s] -- Looking for pthread.h - found
+[0.670s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.727s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.728s] -- Found Threads: TRUE  
+[0.762s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.771s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.783s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.811s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[0.818s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.827s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.828s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.828s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.892s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.947s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.947s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.947s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ozawa/nedo/4w_ws/src/vel_control/include>
+[0.948s] -- Configured cppcheck exclude dirs and/or files: 
+[0.948s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.948s] -- Configured cpplint exclude dirs and/or files: 
+[0.949s] -- Added test 'lint_cmake' to check CMake code style
+[0.949s] -- Added test 'uncrustify' to check C / C++ code style
+[0.949s] -- Configured uncrustify additional arguments: 
+[0.950s] -- Added test 'xmllint' to check XML markup files
+[0.951s] -- Configuring done
+[0.961s] -- Generating done
+[0.962s] -- Build files have been written to: /home/ozawa/nedo/4w_ws/build/vel_control
+[0.971s] Invoked command in '/home/ozawa/nedo/4w_ws/build/vel_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ozawa/nedo/4w_ws/src/vel_control -DCMAKE_INSTALL_PREFIX=/home/ozawa/nedo/4w_ws/install/vel_control
+[0.973s] Invoking command in '/home/ozawa/nedo/4w_ws/build/vel_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ozawa/nedo/4w_ws/build/vel_control -- -j16 -l16
+[1.013s] [ 50%] [32mBuilding CXX object CMakeFiles/velcontrol_node.dir/src/velcontrol_node.cpp.o[0m
+[8.579s] [100%] [32m[1mLinking CXX executable velcontrol_node[0m
+[8.997s] [100%] Built target velcontrol_node
+[9.007s] Invoked command in '/home/ozawa/nedo/4w_ws/build/vel_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ozawa/nedo/4w_ws/build/vel_control -- -j16 -l16
+[9.033s] Invoking command in '/home/ozawa/nedo/4w_ws/build/vel_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ozawa/nedo/4w_ws/build/vel_control
+[9.039s] -- Install configuration: ""
+[9.039s] -- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/lib/vel_control/velcontrol_node
+[9.044s] -- Set runtime path of "/home/ozawa/nedo/4w_ws/install/vel_control/lib/vel_control/velcontrol_node" to ""
+[9.044s] -- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/ament_index/resource_index/package_run_dependencies/vel_control
+[9.044s] -- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/ament_index/resource_index/parent_prefix_path/vel_control
+[9.044s] -- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/environment/ament_prefix_path.sh
+[9.044s] -- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/environment/ament_prefix_path.dsv
+[9.044s] -- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/environment/path.sh
+[9.044s] -- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/environment/path.dsv
+[9.045s] -- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/local_setup.bash
+[9.045s] -- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/local_setup.sh
+[9.045s] -- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/local_setup.zsh
+[9.045s] -- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/local_setup.dsv
+[9.045s] -- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/package.dsv
+[9.045s] -- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/ament_index/resource_index/packages/vel_control
+[9.045s] -- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/cmake/vel_controlConfig.cmake
+[9.046s] -- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/cmake/vel_controlConfig-version.cmake
+[9.046s] -- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/package.xml
+[9.048s] Invoked command in '/home/ozawa/nedo/4w_ws/build/vel_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ozawa/nedo/4w_ws/build/vel_control

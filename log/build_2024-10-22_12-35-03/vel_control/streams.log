@@ -1,0 +1,26 @@
+[0.011s] Invoking command in '/home/ozawa/nedo/4w_ws/build/vel_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ozawa/nedo/4w_ws/build/vel_control -- -j16 -l16
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target velcontrol_node[0m
+[0.062s] [ 50%] [32mBuilding CXX object CMakeFiles/velcontrol_node.dir/src/velcontrol_node.cpp.o[0m
+[8.312s] [100%] [32m[1mLinking CXX executable velcontrol_node[0m
+[8.754s] [100%] Built target velcontrol_node
+[8.765s] Invoked command in '/home/ozawa/nedo/4w_ws/build/vel_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ozawa/nedo/4w_ws/build/vel_control -- -j16 -l16
+[8.787s] Invoking command in '/home/ozawa/nedo/4w_ws/build/vel_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ozawa/nedo/4w_ws/build/vel_control
+[8.793s] -- Install configuration: ""
+[8.793s] -- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/lib/vel_control/velcontrol_node
+[8.801s] -- Set runtime path of "/home/ozawa/nedo/4w_ws/install/vel_control/lib/vel_control/velcontrol_node" to ""
+[8.801s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/vel_control/share/ament_index/resource_index/package_run_dependencies/vel_control
+[8.801s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/vel_control/share/ament_index/resource_index/parent_prefix_path/vel_control
+[8.801s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/environment/ament_prefix_path.sh
+[8.801s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/environment/ament_prefix_path.dsv
+[8.801s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/environment/path.sh
+[8.801s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/environment/path.dsv
+[8.802s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/local_setup.bash
+[8.802s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/local_setup.sh
+[8.802s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/local_setup.zsh
+[8.802s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/local_setup.dsv
+[8.802s] -- Installing: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/package.dsv
+[8.802s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/vel_control/share/ament_index/resource_index/packages/vel_control
+[8.802s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/cmake/vel_controlConfig.cmake
+[8.802s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/cmake/vel_controlConfig-version.cmake
+[8.802s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/vel_control/share/vel_control/package.xml
+[8.804s] Invoked command in '/home/ozawa/nedo/4w_ws/build/vel_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ozawa/nedo/4w_ws/build/vel_control

@@ -1,0 +1,163 @@
+[0.000000] (-) TimerEvent: {}
+[0.000110] (odom_to_pose) JobQueued: {'identifier': 'odom_to_pose', 'dependencies': OrderedDict()}
+[0.000141] (odom_to_pose) JobStarted: {'identifier': 'odom_to_pose'}
+[0.007665] (odom_to_pose) JobProgress: {'identifier': 'odom_to_pose', 'progress': 'cmake'}
+[0.007820] (odom_to_pose) Command: {'cmd': ['/usr/bin/cmake', '/home/ozawa/nedo/roomba_ws/src/odom_to_pose', '-DCMAKE_INSTALL_PREFIX=/home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose'], 'cwd': '/home/ozawa/nedo/roomba_ws/src/odom_to_pose/build/odom_to_pose', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ozawa'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ozawa'), ('OLDPWD', '/home/ozawa/nedo/roomba_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '1613'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ozawa/nedo/roomba_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ozawa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ozawa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ozw-HP:@/tmp/.ICE-unix/1582,unix/ozw-HP:/tmp/.ICE-unix/1582'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/35b3195a_f47e_4a36_b7da_76209fd62eeb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YDSSU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.149'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ozawa/nedo/roomba_ws/install/target_publisher:/home/ozawa/nedo/roomba_ws/install/pure_pursuit:/home/ozawa/nedo/roomba_ws/install/odom_to_pose:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ozawa/nedo/roomba_ws/src/odom_to_pose/build/odom_to_pose'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ozawa/nedo/roomba_ws/install/target_publisher:/home/ozawa/nedo/roomba_ws/install/pure_pursuit:/home/ozawa/nedo/roomba_ws/install/odom_to_pose:/opt/ros/humble')]), 'shell': False}
+[0.083125] (odom_to_pose) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099388] (-) TimerEvent: {}
+[0.143423] (odom_to_pose) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.152576] (odom_to_pose) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199490] (-) TimerEvent: {}
+[0.209108] (odom_to_pose) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.214029] (odom_to_pose) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.214470] (odom_to_pose) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.215170] (odom_to_pose) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.218141] (odom_to_pose) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.280932] (odom_to_pose) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.286009] (odom_to_pose) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.286233] (odom_to_pose) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.286535] (odom_to_pose) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.293412] (odom_to_pose) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299550] (-) TimerEvent: {}
+[0.399776] (-) TimerEvent: {}
+[0.403169] (odom_to_pose) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.488268] (odom_to_pose) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.499852] (-) TimerEvent: {}
+[0.537445] (odom_to_pose) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.543712] (odom_to_pose) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.553053] (odom_to_pose) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.568281] (odom_to_pose) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.585584] (odom_to_pose) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.599932] (-) TimerEvent: {}
+[0.634557] (odom_to_pose) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.637756] (odom_to_pose) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700049] (-) TimerEvent: {}
+[0.720397] (odom_to_pose) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.742882] (odom_to_pose) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.774075] (odom_to_pose) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.783878] (odom_to_pose) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.800141] (-) TimerEvent: {}
+[0.841758] (odom_to_pose) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.842125] (odom_to_pose) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.900238] (-) TimerEvent: {}
+[0.900537] (odom_to_pose) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.901433] (odom_to_pose) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.954861] (odom_to_pose) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.986520] (odom_to_pose) StdoutLine: {'line': b'-- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.997104] (odom_to_pose) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.000315] (-) TimerEvent: {}
+[1.010786] (odom_to_pose) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.012286] (odom_to_pose) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.012388] (odom_to_pose) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.100453] (-) TimerEvent: {}
+[1.108812] (odom_to_pose) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[1.169434] (odom_to_pose) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.182709] (odom_to_pose) StdoutLine: {'line': b'-- Generating done\n'}
+[1.184238] (odom_to_pose) StdoutLine: {'line': b'-- Build files have been written to: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/build/odom_to_pose\n'}
+[1.192827] (odom_to_pose) CommandEnded: {'returncode': 0}
+[1.193416] (odom_to_pose) JobProgress: {'identifier': 'odom_to_pose', 'progress': 'build'}
+[1.194405] (odom_to_pose) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ozawa/nedo/roomba_ws/src/odom_to_pose/build/odom_to_pose', '--', '-j16', '-l16'], 'cwd': '/home/ozawa/nedo/roomba_ws/src/odom_to_pose/build/odom_to_pose', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ozawa'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ozawa'), ('OLDPWD', '/home/ozawa/nedo/roomba_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '1613'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ozawa/nedo/roomba_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ozawa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ozawa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ozw-HP:@/tmp/.ICE-unix/1582,unix/ozw-HP:/tmp/.ICE-unix/1582'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/35b3195a_f47e_4a36_b7da_76209fd62eeb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YDSSU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.149'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ozawa/nedo/roomba_ws/install/target_publisher:/home/ozawa/nedo/roomba_ws/install/pure_pursuit:/home/ozawa/nedo/roomba_ws/install/odom_to_pose:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ozawa/nedo/roomba_ws/src/odom_to_pose/build/odom_to_pose'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ozawa/nedo/roomba_ws/install/target_publisher:/home/ozawa/nedo/roomba_ws/install/pure_pursuit:/home/ozawa/nedo/roomba_ws/install/odom_to_pose:/opt/ros/humble')]), 'shell': False}
+[1.200506] (-) TimerEvent: {}
+[1.234791] (odom_to_pose) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtleodom_node.dir/src/turtleodom_node.cpp.o\x1b[0m\n'}
+[1.234967] (odom_to_pose) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/odompose_node.dir/src/odompose_node.cpp.o\x1b[0m\n'}
+[1.300629] (-) TimerEvent: {}
+[1.400906] (-) TimerEvent: {}
+[1.501174] (-) TimerEvent: {}
+[1.601469] (-) TimerEvent: {}
+[1.701762] (-) TimerEvent: {}
+[1.802060] (-) TimerEvent: {}
+[1.902367] (-) TimerEvent: {}
+[2.002658] (-) TimerEvent: {}
+[2.102949] (-) TimerEvent: {}
+[2.203310] (-) TimerEvent: {}
+[2.303608] (-) TimerEvent: {}
+[2.403906] (-) TimerEvent: {}
+[2.504216] (-) TimerEvent: {}
+[2.604515] (-) TimerEvent: {}
+[2.704815] (-) TimerEvent: {}
+[2.805105] (-) TimerEvent: {}
+[2.905388] (-) TimerEvent: {}
+[3.005674] (-) TimerEvent: {}
+[3.105979] (-) TimerEvent: {}
+[3.206898] (-) TimerEvent: {}
+[3.307184] (-) TimerEvent: {}
+[3.407484] (-) TimerEvent: {}
+[3.507776] (-) TimerEvent: {}
+[3.608063] (-) TimerEvent: {}
+[3.708782] (-) TimerEvent: {}
+[3.809068] (-) TimerEvent: {}
+[3.909368] (-) TimerEvent: {}
+[4.009754] (-) TimerEvent: {}
+[4.110050] (-) TimerEvent: {}
+[4.210349] (-) TimerEvent: {}
+[4.310630] (-) TimerEvent: {}
+[4.410905] (-) TimerEvent: {}
+[4.511190] (-) TimerEvent: {}
+[4.611740] (-) TimerEvent: {}
+[4.712038] (-) TimerEvent: {}
+[4.812332] (-) TimerEvent: {}
+[4.912629] (-) TimerEvent: {}
+[5.013446] (-) TimerEvent: {}
+[5.113748] (-) TimerEvent: {}
+[5.214050] (-) TimerEvent: {}
+[5.314392] (-) TimerEvent: {}
+[5.414704] (-) TimerEvent: {}
+[5.514989] (-) TimerEvent: {}
+[5.615274] (-) TimerEvent: {}
+[5.715571] (-) TimerEvent: {}
+[5.815862] (-) TimerEvent: {}
+[5.916146] (-) TimerEvent: {}
+[6.022659] (-) TimerEvent: {}
+[6.122945] (-) TimerEvent: {}
+[6.223226] (-) TimerEvent: {}
+[6.323522] (-) TimerEvent: {}
+[6.423801] (-) TimerEvent: {}
+[6.524081] (-) TimerEvent: {}
+[6.624360] (-) TimerEvent: {}
+[6.724641] (-) TimerEvent: {}
+[6.824924] (-) TimerEvent: {}
+[6.925195] (-) TimerEvent: {}
+[7.025485] (-) TimerEvent: {}
+[7.125766] (-) TimerEvent: {}
+[7.226049] (-) TimerEvent: {}
+[7.326345] (-) TimerEvent: {}
+[7.426626] (-) TimerEvent: {}
+[7.526911] (-) TimerEvent: {}
+[7.627209] (-) TimerEvent: {}
+[7.727538] (-) TimerEvent: {}
+[7.810210] (odom_to_pose) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable odompose_node\x1b[0m\n'}
+[7.827647] (-) TimerEvent: {}
+[7.888096] (odom_to_pose) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtleodom_node\x1b[0m\n'}
+[7.927752] (-) TimerEvent: {}
+[8.028066] (-) TimerEvent: {}
+[8.128425] (-) TimerEvent: {}
+[8.194719] (odom_to_pose) StdoutLine: {'line': b'[100%] Built target odompose_node\n'}
+[8.228532] (-) TimerEvent: {}
+[8.242285] (odom_to_pose) StdoutLine: {'line': b'[100%] Built target turtleodom_node\n'}
+[8.251803] (odom_to_pose) CommandEnded: {'returncode': 0}
+[8.278264] (odom_to_pose) JobProgress: {'identifier': 'odom_to_pose', 'progress': 'install'}
+[8.285709] (odom_to_pose) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ozawa/nedo/roomba_ws/src/odom_to_pose/build/odom_to_pose'], 'cwd': '/home/ozawa/nedo/roomba_ws/src/odom_to_pose/build/odom_to_pose', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ozawa'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ozawa'), ('OLDPWD', '/home/ozawa/nedo/roomba_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '1613'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ozawa/nedo/roomba_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ozawa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ozawa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ozw-HP:@/tmp/.ICE-unix/1582,unix/ozw-HP:/tmp/.ICE-unix/1582'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/35b3195a_f47e_4a36_b7da_76209fd62eeb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YDSSU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.149'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ozawa/nedo/roomba_ws/install/target_publisher:/home/ozawa/nedo/roomba_ws/install/pure_pursuit:/home/ozawa/nedo/roomba_ws/install/odom_to_pose:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ozawa/nedo/roomba_ws/src/odom_to_pose/build/odom_to_pose'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ozawa/nedo/roomba_ws/install/target_publisher:/home/ozawa/nedo/roomba_ws/install/pure_pursuit:/home/ozawa/nedo/roomba_ws/install/odom_to_pose:/opt/ros/humble')]), 'shell': False}
+[8.291609] (odom_to_pose) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.291775] (odom_to_pose) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/lib/odom_to_pose/odompose_node\n'}
+[8.295172] (odom_to_pose) StdoutLine: {'line': b'-- Set runtime path of "/home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/lib/odom_to_pose/odompose_node" to ""\n'}
+[8.295251] (odom_to_pose) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/lib/odom_to_pose/turtleodom_node\n'}
+[8.298705] (odom_to_pose) StdoutLine: {'line': b'-- Set runtime path of "/home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/lib/odom_to_pose/turtleodom_node" to ""\n'}
+[8.298869] (odom_to_pose) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/ament_index/resource_index/package_run_dependencies/odom_to_pose\n'}
+[8.299033] (odom_to_pose) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/ament_index/resource_index/parent_prefix_path/odom_to_pose\n'}
+[8.299217] (odom_to_pose) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/odom_to_pose/environment/ament_prefix_path.sh\n'}
+[8.299362] (odom_to_pose) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/odom_to_pose/environment/ament_prefix_path.dsv\n'}
+[8.299494] (odom_to_pose) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/odom_to_pose/environment/path.sh\n'}
+[8.299612] (odom_to_pose) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/odom_to_pose/environment/path.dsv\n'}
+[8.299736] (odom_to_pose) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/odom_to_pose/local_setup.bash\n'}
+[8.299871] (odom_to_pose) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/odom_to_pose/local_setup.sh\n'}
+[8.300014] (odom_to_pose) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/odom_to_pose/local_setup.zsh\n'}
+[8.300149] (odom_to_pose) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/odom_to_pose/local_setup.dsv\n'}
+[8.300282] (odom_to_pose) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/odom_to_pose/package.dsv\n'}
+[8.300467] (odom_to_pose) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/ament_index/resource_index/packages/odom_to_pose\n'}
+[8.300627] (odom_to_pose) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/odom_to_pose/cmake/odom_to_poseConfig.cmake\n'}
+[8.300735] (odom_to_pose) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/odom_to_pose/cmake/odom_to_poseConfig-version.cmake\n'}
+[8.300855] (odom_to_pose) StdoutLine: {'line': b'-- Installing: /home/ozawa/nedo/roomba_ws/src/odom_to_pose/install/odom_to_pose/share/odom_to_pose/package.xml\n'}
+[8.302456] (odom_to_pose) CommandEnded: {'returncode': 0}
+[8.328602] (-) TimerEvent: {}
+[8.340848] (odom_to_pose) JobEnded: {'identifier': 'odom_to_pose', 'rc': 0}
+[8.341291] (-) EventReactorShutdown: {}

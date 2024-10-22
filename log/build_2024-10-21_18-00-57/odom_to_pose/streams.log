@@ -1,0 +1,66 @@
+[0.012s] Invoking command in '/home/ozawa/nedo/4w_ws/build/odom_to_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ozawa/nedo/4w_ws/src/odom_to_pose -DCMAKE_INSTALL_PREFIX=/home/ozawa/nedo/4w_ws/install/odom_to_pose
+[0.062s] -- The C compiler identification is GNU 11.4.0
+[0.110s] -- The CXX compiler identification is GNU 11.4.0
+[0.118s] -- Detecting C compiler ABI info
+[0.179s] -- Detecting C compiler ABI info - done
+[0.184s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.184s] -- Detecting C compile features
+[0.184s] -- Detecting C compile features - done
+[0.186s] -- Detecting CXX compiler ABI info
+[0.250s] -- Detecting CXX compiler ABI info - done
+[0.255s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.255s] -- Detecting CXX compile features
+[0.255s] -- Detecting CXX compile features - done
+[0.257s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.366s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.434s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.473s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.479s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.488s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.500s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.511s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.544s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.546s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.616s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.637s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.670s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.677s] -- Looking for pthread.h
+[0.735s] -- Looking for pthread.h - found
+[0.736s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.796s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.797s] -- Found Threads: TRUE  
+[0.834s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.857s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[0.867s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.881s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.883s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.883s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.008s] -- Configuring done
+[1.019s] -- Generating done
+[1.021s] -- Build files have been written to: /home/ozawa/nedo/4w_ws/build/odom_to_pose
+[1.030s] Invoked command in '/home/ozawa/nedo/4w_ws/build/odom_to_pose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ozawa/nedo/4w_ws/src/odom_to_pose -DCMAKE_INSTALL_PREFIX=/home/ozawa/nedo/4w_ws/install/odom_to_pose
+[1.032s] Invoking command in '/home/ozawa/nedo/4w_ws/build/odom_to_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ozawa/nedo/4w_ws/build/odom_to_pose -- -j16 -l16
+[1.075s] [ 50%] [32mBuilding CXX object CMakeFiles/odompose_node.dir/src/odompose_node.cpp.o[0m
+[7.283s] [100%] [32m[1mLinking CXX executable odompose_node[0m
+[7.574s] [100%] Built target odompose_node
+[7.585s] Invoked command in '/home/ozawa/nedo/4w_ws/build/odom_to_pose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ozawa/nedo/4w_ws/build/odom_to_pose -- -j16 -l16
+[7.606s] Invoking command in '/home/ozawa/nedo/4w_ws/build/odom_to_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ozawa/nedo/4w_ws/build/odom_to_pose
+[7.612s] -- Install configuration: ""
+[7.612s] -- Installing: /home/ozawa/nedo/4w_ws/install/odom_to_pose/lib/odom_to_pose/odompose_node
+[7.615s] -- Set runtime path of "/home/ozawa/nedo/4w_ws/install/odom_to_pose/lib/odom_to_pose/odompose_node" to ""
+[7.616s] -- Installing: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/ament_index/resource_index/package_run_dependencies/odom_to_pose
+[7.616s] -- Installing: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/ament_index/resource_index/parent_prefix_path/odom_to_pose
+[7.616s] -- Installing: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/environment/ament_prefix_path.sh
+[7.616s] -- Installing: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/environment/ament_prefix_path.dsv
+[7.616s] -- Installing: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/environment/path.sh
+[7.616s] -- Installing: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/environment/path.dsv
+[7.616s] -- Installing: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/local_setup.bash
+[7.617s] -- Installing: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/local_setup.sh
+[7.617s] -- Installing: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/local_setup.zsh
+[7.617s] -- Installing: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/local_setup.dsv
+[7.617s] -- Installing: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/package.dsv
+[7.617s] -- Installing: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/ament_index/resource_index/packages/odom_to_pose
+[7.617s] -- Installing: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/cmake/odom_to_poseConfig.cmake
+[7.617s] -- Installing: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/cmake/odom_to_poseConfig-version.cmake
+[7.617s] -- Installing: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/package.xml
+[7.619s] Invoked command in '/home/ozawa/nedo/4w_ws/build/odom_to_pose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ozawa/nedo/4w_ws/build/odom_to_pose
