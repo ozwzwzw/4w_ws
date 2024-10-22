@@ -74,7 +74,9 @@ private:
                                       1.0 - 2.0 * (msg->pose.orientation.y * msg->pose.orientation.y + msg->pose.orientation.z * msg->pose.orientation.z));
 
         // 目標位置方向への角度
-        double angle_to_target = std::atan2((target_y_-robot_y), (target_x_-robot_x));
+        double angle_to_target = std::atan2(target_y_-robot_y, target_x_-robot_x);
+        //double angle_to_target = std::atan((target_y_-robot_y)/(target_x_-robot_x));
+        //if (target_x_-robot_x < 0){angle_to_target += M_PI;}
         
         // 目標位置までの距離
         double distance = std::hypot(target_x_ - robot_x, target_y_ - robot_y);
