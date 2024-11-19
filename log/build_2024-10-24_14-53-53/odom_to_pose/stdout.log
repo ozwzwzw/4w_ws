@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target odompose_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/odompose_node.dir/src/odompose_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable odompose_node[0m
+[100%] Built target odompose_node
+-- Install configuration: ""
+-- Installing: /home/ozawa/nedo/4w_ws/install/odom_to_pose/lib/odom_to_pose/odompose_node
+-- Set runtime path of "/home/ozawa/nedo/4w_ws/install/odom_to_pose/lib/odom_to_pose/odompose_node" to ""
+-- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/ament_index/resource_index/package_run_dependencies/odom_to_pose
+-- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/ament_index/resource_index/parent_prefix_path/odom_to_pose
+-- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/environment/path.sh
+-- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/environment/path.dsv
+-- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/local_setup.bash
+-- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/local_setup.sh
+-- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/local_setup.zsh
+-- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/local_setup.dsv
+-- Installing: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/package.dsv
+-- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/ament_index/resource_index/packages/odom_to_pose
+-- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/cmake/odom_to_poseConfig.cmake
+-- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/cmake/odom_to_poseConfig-version.cmake
+-- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/package.xml

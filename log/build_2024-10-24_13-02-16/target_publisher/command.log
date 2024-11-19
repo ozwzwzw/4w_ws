@@ -1,0 +1,4 @@
+Invoking command in '/home/ozawa/nedo/4w_ws/build/target_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ozawa/nedo/4w_ws/build/target_publisher -- -j16 -l16
+Invoked command in '/home/ozawa/nedo/4w_ws/build/target_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ozawa/nedo/4w_ws/build/target_publisher -- -j16 -l16
+Invoking command in '/home/ozawa/nedo/4w_ws/build/target_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ozawa/nedo/4w_ws/build/target_publisher
+Invoked command in '/home/ozawa/nedo/4w_ws/build/target_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ozawa/nedo/4w_ws/build/target_publisher

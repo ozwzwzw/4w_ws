@@ -1,70 +1,59 @@
-//-----------------------------------------------------------------------------------------------//
-// 【プログラムの流れ】
-//  "nav_msgs::msg::Odometry"型のメッセージを受け取り、
-//  その中に含まれている位置と姿勢のデータを"geometry_msgs::msg::PoseStamped"型に変換
-//
-// (1) サブスクライブ
-// 	・オドメトリデータ (nav_msgs::msg::Odometry) を受信
-//  ・位置 (position.x, position.y)、姿勢（四元数）の情報を取得
-//
-// (2) 四元数からヨー角の計算
-//	：四元数をロール、ピッチ、ヨー角に変換し、ヨー角を抽出
-//
-// (3) パブリッシュ
-//	・geometry_msgs::msg::PoseStamped メッセージを生成し、/odom_poseトピックに送信
-//
-//-----------------------------------------------------------------------------------------------//
+/*
+// 半径2メートルの円周上をぐるぐる ///////////////////////////////////////////////////////////////////////////////////////
 
-#include <chrono>
-#include "rclcpp/rclcpp.hpp"
-#include "nav_msgs/msg/odometry.hpp"
-#include "geometry_msgs/msg/pose_stamped.hpp"
-#include "tf2/LinearMath/Quaternion.h"
-#include "tf2_geometry_msgs/tf2_geometry_msgs.hpp"
-#include "tf2/LinearMath/Matrix3x3.h"
-
-using namespace std::chrono_literals;
+#include <rclcpp/rclcpp.hpp>
+#include <geometry_msgs/msg/pose_stamped.hpp>
+#include <cmath>
 
 class OdomPoseNode : public rclcpp::Node {
 public:
-    OdomPoseNode() : Node("odompose_node") {
-        odom_sub_ = this->create_subscription<nav_msgs::msg::Odometry>(
-            "odom", 10, std::bind(&OdomPoseNode::odom_callback, this, std::placeholders::_1));
+    OdomPoseNode() : Node("odompose_node"), angle_(0.0) {
+        // タイマー (0.1sごとにコールバックを呼び出す)
+        timer_ = this->create_wall_timer(
+            std::chrono::milliseconds(100),
+            std::bind(&OdomPoseNode::timer_callback, this)
+        );
 
         pose_pub_ = this->create_publisher<geometry_msgs::msg::PoseStamped>("odom_pose", 10);
     }
 
 private:
-    void odom_callback(const nav_msgs::msg::Odometry::SharedPtr msg) {
-        
-        double position_x = msg->pose.pose.position.x;
-        double position_y = msg->pose.pose.position.y;
+    void timer_callback() {
+        // 半径2メートルの円を描くための位置計算
+        double radius = 2.0;
+        double angular_speed = 0.1; // 角速度[rad/s]
 
-        double orientation_x = msg->pose.pose.orientation.x;
-        double orientation_y = msg->pose.pose.orientation.y;
-        double orientation_z = msg->pose.pose.orientation.z;
-        double orientation_w = msg->pose.pose.orientation.w;
+        angle_ += angular_speed * 0.1; // タイマー周期（0.1s）に合わせて角度を更新
 
-        tf2::Quaternion q(orientation_x, orientation_y, orientation_z, orientation_w);
-        tf2::Matrix3x3 m(q);
-        double roll, pitch, yaw;
-        m.getRPY(roll, pitch, yaw);
+        // 円の上の位置を計算
+        double position_x = radius * cos(angle_);
+        double position_y = radius * sin(angle_);
+
+        // オリエンテーション（yaw）を計算（Z軸の回転）
+        double orientation_z = sin(angle_ / 2.0);
+        double orientation_w = cos(angle_ / 2.0);
+
+        // Yaw角を計算
+        double yaw = angle_;
 
         geometry_msgs::msg::PoseStamped pose_msg;
         pose_msg.header.stamp = this->now();
         pose_msg.header.frame_id = "odom"; 
-        pose_msg.pose.position.x = position_x;
-        pose_msg.pose.position.y = position_y;
-        pose_msg.pose.position.z = 0.0;
-        pose_msg.pose.orientation = msg->pose.pose.orientation;
+        pose_msg.pose.position.x = position_x; // X位置
+        pose_msg.pose.position.y = position_y; // Y位置
+        pose_msg.pose.position.z = 0.0;        // Z位置
+        pose_msg.pose.orientation.x = 0.0;     // Xオリエンテーション
+        pose_msg.pose.orientation.y = 0.0;     // Yオリエンテーション
+        pose_msg.pose.orientation.z = orientation_z; // Zオリエンテーション
+        pose_msg.pose.orientation.w = orientation_w; // Wオリエンテーション（クォータニオン）
 
         pose_pub_->publish(pose_msg);
-
-        RCLCPP_INFO(this->get_logger(), "Position - x: %.2f, y: %.2f, yaw: %.2f", position_x, position_y, yaw);
+        RCLCPP_INFO(this->get_logger(), "Publishing odom_pose: (%.2f, %.2f, %.2f)", position_x, position_y, yaw);
     }
 
-    rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr odom_sub_;
     rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::SharedPtr pose_pub_;
+    rclcpp::TimerBase::SharedPtr timer_;
+    double angle_;
 };
 
 int main(int argc, char **argv) {
@@ -73,3 +62,55 @@ int main(int argc, char **argv) {
     rclcpp::shutdown();
     return 0;
 }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+
+// 現在位置・姿勢 = 0.0 に固定 ////////////////////////////////////////////////////////////////////////////////////////////////
+
+#include <rclcpp/rclcpp.hpp>
+#include <geometry_msgs/msg/pose_stamped.hpp>
+
+class OdomPoseNode : public rclcpp::Node {
+public:
+    OdomPoseNode() : Node("odompose_node") {
+        // タイマー (0.1sごとにコールバックを呼び出す)
+        timer_ = this->create_wall_timer(
+            std::chrono::milliseconds(100),
+            std::bind(&OdomPoseNode::timer_callback, this)
+        );
+
+        pose_pub_ = this->create_publisher<geometry_msgs::msg::PoseStamped>("odom_pose", 10);
+    }
+
+private:
+    void timer_callback() {
+        geometry_msgs::msg::PoseStamped pose_msg;
+        pose_msg.header.stamp = this->now();
+        pose_msg.header.frame_id = "odom"; 
+        pose_msg.pose.position.x = 0.0; // X位置
+        pose_msg.pose.position.y = 0.0; // Y位置
+        pose_msg.pose.position.z = 0.0; // Z位置
+        pose_msg.pose.orientation.x = 0.0; // Xオリエンテーション
+        pose_msg.pose.orientation.y = 0.0; // Yオリエンテーション
+        pose_msg.pose.orientation.z = 0.0; // Zオリエンテーション
+        pose_msg.pose.orientation.w = 1.0; // Wオリエンテーション（クォータニオン）
+
+        pose_pub_->publish(pose_msg);
+        RCLCPP_INFO(this->get_logger(), "Publishing odom_pose: (0.0, 0.0, 0.0)");
+    }
+
+    rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::SharedPtr pose_pub_;
+    rclcpp::TimerBase::SharedPtr timer_;
+};
+
+int main(int argc, char **argv) {
+    rclcpp::init(argc, argv);
+    rclcpp::spin(std::make_shared<OdomPoseNode>());
+    rclcpp::shutdown();
+    return 0;
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

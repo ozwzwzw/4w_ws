@@ -1,0 +1,6 @@
+Invoking command in '/home/ozawa/nedo/4w_ws/src/vel_control/build/vel_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ozawa/nedo/4w_ws/src/vel_control -DCMAKE_INSTALL_PREFIX=/home/ozawa/nedo/4w_ws/src/vel_control/install/vel_control
+Invoked command in '/home/ozawa/nedo/4w_ws/src/vel_control/build/vel_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ozawa/nedo/4w_ws/src/vel_control -DCMAKE_INSTALL_PREFIX=/home/ozawa/nedo/4w_ws/src/vel_control/install/vel_control
+Invoking command in '/home/ozawa/nedo/4w_ws/src/vel_control/build/vel_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ozawa/nedo/4w_ws/src/vel_control/build/vel_control -- -j16 -l16
+Invoked command in '/home/ozawa/nedo/4w_ws/src/vel_control/build/vel_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ozawa/nedo/4w_ws/src/vel_control/build/vel_control -- -j16 -l16
+Invoking command in '/home/ozawa/nedo/4w_ws/src/vel_control/build/vel_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ozawa/nedo/4w_ws/src/vel_control/build/vel_control
+Invoked command in '/home/ozawa/nedo/4w_ws/src/vel_control/build/vel_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ozawa/nedo/4w_ws/src/vel_control/build/vel_control

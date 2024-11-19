@@ -1,0 +1,25 @@
+[0.015s] Invoking command in '/home/ozawa/nedo/4w_ws/build/odom_to_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ozawa/nedo/4w_ws/build/odom_to_pose -- -j16 -l16
+[0.073s] [ 50%] [32mBuilding CXX object CMakeFiles/odompose_node.dir/src/odompose_node.cpp.o[0m
+[7.161s] [100%] [32m[1mLinking CXX executable odompose_node[0m
+[7.536s] [100%] Built target odompose_node
+[7.546s] Invoked command in '/home/ozawa/nedo/4w_ws/build/odom_to_pose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ozawa/nedo/4w_ws/build/odom_to_pose -- -j16 -l16
+[7.574s] Invoking command in '/home/ozawa/nedo/4w_ws/build/odom_to_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ozawa/nedo/4w_ws/build/odom_to_pose
+[7.582s] -- Install configuration: ""
+[7.582s] -- Installing: /home/ozawa/nedo/4w_ws/install/odom_to_pose/lib/odom_to_pose/odompose_node
+[7.588s] -- Set runtime path of "/home/ozawa/nedo/4w_ws/install/odom_to_pose/lib/odom_to_pose/odompose_node" to ""
+[7.588s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/ament_index/resource_index/package_run_dependencies/odom_to_pose
+[7.588s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/ament_index/resource_index/parent_prefix_path/odom_to_pose
+[7.588s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/environment/ament_prefix_path.sh
+[7.588s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/environment/ament_prefix_path.dsv
+[7.588s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/environment/path.sh
+[7.588s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/environment/path.dsv
+[7.589s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/local_setup.bash
+[7.589s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/local_setup.sh
+[7.589s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/local_setup.zsh
+[7.589s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/local_setup.dsv
+[7.589s] -- Installing: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/package.dsv
+[7.589s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/ament_index/resource_index/packages/odom_to_pose
+[7.589s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/cmake/odom_to_poseConfig.cmake
+[7.589s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/cmake/odom_to_poseConfig-version.cmake
+[7.589s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/odom_to_pose/share/odom_to_pose/package.xml
+[7.591s] Invoked command in '/home/ozawa/nedo/4w_ws/build/odom_to_pose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ozawa/nedo/4w_ws/build/odom_to_pose

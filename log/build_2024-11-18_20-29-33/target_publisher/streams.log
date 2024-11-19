@@ -1,0 +1,25 @@
+[0.012s] Invoking command in '/home/ozawa/nedo/4w_ws/build/target_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ozawa/nedo/4w_ws/build/target_publisher -- -j16 -l16
+[0.069s] [ 50%] [32mBuilding CXX object CMakeFiles/target_node.dir/src/target_node.cpp.o[0m
+[3.726s] [100%] [32m[1mLinking CXX executable target_node[0m
+[3.867s] [100%] Built target target_node
+[3.878s] Invoked command in '/home/ozawa/nedo/4w_ws/build/target_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ozawa/nedo/4w_ws/build/target_publisher -- -j16 -l16
+[3.902s] Invoking command in '/home/ozawa/nedo/4w_ws/build/target_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ozawa/nedo/4w_ws/build/target_publisher
+[3.908s] -- Install configuration: ""
+[3.909s] -- Installing: /home/ozawa/nedo/4w_ws/install/target_publisher/lib/target_publisher/target_node
+[3.910s] -- Set runtime path of "/home/ozawa/nedo/4w_ws/install/target_publisher/lib/target_publisher/target_node" to ""
+[3.910s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/target_publisher/share/ament_index/resource_index/package_run_dependencies/target_publisher
+[3.910s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/target_publisher/share/ament_index/resource_index/parent_prefix_path/target_publisher
+[3.910s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/target_publisher/share/target_publisher/environment/ament_prefix_path.sh
+[3.910s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/target_publisher/share/target_publisher/environment/ament_prefix_path.dsv
+[3.910s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/target_publisher/share/target_publisher/environment/path.sh
+[3.910s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/target_publisher/share/target_publisher/environment/path.dsv
+[3.910s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/target_publisher/share/target_publisher/local_setup.bash
+[3.911s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/target_publisher/share/target_publisher/local_setup.sh
+[3.911s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/target_publisher/share/target_publisher/local_setup.zsh
+[3.911s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/target_publisher/share/target_publisher/local_setup.dsv
+[3.911s] -- Installing: /home/ozawa/nedo/4w_ws/install/target_publisher/share/target_publisher/package.dsv
+[3.911s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/target_publisher/share/ament_index/resource_index/packages/target_publisher
+[3.911s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/target_publisher/share/target_publisher/cmake/target_publisherConfig.cmake
+[3.911s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/target_publisher/share/target_publisher/cmake/target_publisherConfig-version.cmake
+[3.911s] -- Up-to-date: /home/ozawa/nedo/4w_ws/install/target_publisher/share/target_publisher/package.xml
+[3.913s] Invoked command in '/home/ozawa/nedo/4w_ws/build/target_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ozawa/nedo/4w_ws/build/target_publisher

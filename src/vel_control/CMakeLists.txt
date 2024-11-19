@@ -34,6 +34,10 @@ ament_target_dependencies(velcontrol_node
 # Set C++ standard
 target_compile_features(velcontrol_node PUBLIC cxx_std_17)
 
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
 # Install the executable
 install(TARGETS velcontrol_node
   DESTINATION lib/${PROJECT_NAME})
